@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+:root {
+    --color-main: #F9D640;
+    --color-alt: #142637;
+    --text-color: aliceblue;
+    --color-filter : 
+    invert(86%) sepia(100%) saturate(528%) hue-rotate(327deg) brightness(102%) contrast(95%)
+    ;
+    --font-type: 'Ubuntu', sans-serif;
+    --margin-lg: 1rem 0rem;
+}
+
+* { 
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0rem;
+    background-color: var(--color-alt);
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-type);
+}
+
+
+.container {
+    margin: var(--margin-lg);
+}

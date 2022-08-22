@@ -1,0 +1,140 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    min-width: 800px;
+    width: 800px;
+    flex-direction: column;
+}
+
+.header__profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    width: 100%;
+    padding-inline: 5rem;
+}
+
+.header__profile-img {
+    width: 208px;
+    height: 208px;
+    background-color: transparent;
+    border: 3px solid aliceblue;
+    border-radius: 50%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header__profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+
+.header__profile-info h3 {
+    margin: 0rem;
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.header__profile-info p {
+    font-size: 1.5rem;
+    margin: 0rem;
+    color: aliceblue;
+}
+.header__profile-info-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    margin-top: 1rem;
+    padding: 0rem;
+    justify-content: space-evenly;
+}
+
+.header__profile-info-list a {
+    color: var(--color-main);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+.header__btns {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header__btns button {
+    width: 17rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 450ms;
+}
+
+.header__btns button:hover {
+    transform: scale(1.02);
+}
+
+.header__btns-btn-1 {
+    background-color: var(--color-main);
+    color: var(--color-alt);
+}
+
+.header__btns-btn-2 {
+    background-color: rgba(240, 248, 255, 0.1);
+    color: var(--color-main);
+}
+
+.icon {
+    margin-left: 1rem;
+}
+
+.header__info {
+    background: rgba(240, 248, 255, 0.1);
+    display: flex;
+    margin-top: 3rem ;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 3rem;
+    gap: 1rem;
+}
+.header__info-link {
+    color: var(--color-main);
+    width: 20rem;
+    height: 3.5rem;
+    display: flex;
+    border-radius: 2rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-main);
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

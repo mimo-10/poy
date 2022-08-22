@@ -1,0 +1,56 @@
+.edit-img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(21, 24, 24, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    border-radius: 3rem;
+    width: 20rem;
+    height: 30rem;
+    background-color: var(--color-alt);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.close-edit {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: var(--color-main);
+    font-size: 2rem;
+}
+.img-container img{
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.img-h4 {
+    color: var(--color-main);
+    margin-top: 0;
+}
+
+.img-input {
+    color: var(--color-main);
+    margin-block: 2rem;
+}
+
+.edit-img button {
+    width: 11rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: var(--color-alt);
+    background-color: var(--color-main);
+    border: none;
+    border-radius: 2rem;
+}

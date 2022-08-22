@@ -1,0 +1,50 @@
+.subheader {
+    background-color: rgba(240, 248, 255, 0.1);
+    width: 98.95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    padding: .5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--color-main);
+    background-color: transparent;
+    border: 2px solid rgba(240, 248, 255, 0.1);
+}
+
+.close__icon {
+    color: var(--color-main);
+}
+
+.icon_sub {
+    color: var(--color-main);
+    font-size: 3rem;
+    margin-block: 2rem;
+}
+
+
+.admin {
+    color: aliceblue;
+    opacity: .7; 
+    text-transform: capitalize;
+}
+
+.title {
+    color: var(--color-main);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
